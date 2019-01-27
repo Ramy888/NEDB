@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA80FC"
+    android:orientation="vertical"
+    tools:context="com.example.android.networkdevicesdatabase.ReferencesActivity">
+
+    <TextView
+        android:id="@+id/references"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/reference"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:text="@string/data"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/sheet_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/sheet_1"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_Reference"
+        android:text="@string/reference"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sheet_2"
+        android:text="@string/sheet_2"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_Reference"
+        android:text="@string/reference"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="monospace"
+        android:textSize="18sp"/>
+
+</LinearLayout>

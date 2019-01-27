@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cisco"
+        android:icon="@drawable/ic_action_cisco"
+        android:title="@string/cisco_fragment"/>
+    <item
+        android:id="@+id/juniper"
+        android:icon="@drawable/ic_action_juniper"
+        android:title="@string/juniper_fragment"/>
+    <item
+        android:id="@+id/huawei"
+        android:icon="@drawable/ic_action_huawei"
+        android:title="@string/huawei_fragment"/>
+
+    <item
+        android:id="@+id/topology"
+        android:icon="@drawable/ic_topology"
+        android:title="@string/topology"/>
+</menu>

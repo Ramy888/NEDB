@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.networkdevicesdatabase.SplashActivity">
+
+    <ImageView
+        android:id="@+id/welcome_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:layout_gravity="fill"
+        android:foregroundGravity="fill"
+        android:contentDescription="@string/welcome_screen"
+        android:src="@drawable/ic_router" />
+
+</FrameLayout>
